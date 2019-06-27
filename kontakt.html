@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="pl-PL">
+
+<head>
+
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Saab</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<div id="page">
+		<div id="header">
+			<div id="logo">
+
+				<img src="images/saab_logo.png" alt="logo"  />
+
+			</div>
+			<div id="s_header">
+				<img src="images/sheader.png" alt="sheader" />
+			</div>
+		</div>
+
+		<div id="menu">
+			<p style="color:yellow; font-family: verdana; font-size: 20px;text-align: center;">MENU</p>
+			<nav>
+				<ul>
+					<li><a class ="menu" href="index.html"> Strona główna </a></li>
+					<li><a class ="menu" href="historia.html"> Historia marki </a></li>
+					<li><a class ="menu">Modele &rarr;</a>
+						<ol>
+							<li><a href="9-3.html" >Saab 9-3</a></li>
+							<li><a href="9-5.html" >Saab 9-5</a></li>
+							<li><a href="9000.html" >Saab 9000</a></li>
+						</ol>
+					</li>
+					<li><a class ="menu" href="silniki.html"> Silniki </a></li>
+					<li><a class ="menu" href="galeria.html"> Galeria </a></li>
+					<li class="menu"><a class ="active" href="kontakt.html"> Kontakt </a></li>
+				</ul>
+			</nav>
+		</div>
+
+		<div id="content">
+			<h2>Kontakt</h2>
+			<h3>Jeżeli masz jakieś pytania odnośnie swojego Saab'a to zachęcamy do kontaktu poprzez formularz kontaktowy: </h3>
+			<form action="mailto:adrian.konkel1@gmail.com" method="post" enctype="text/plain">
+				Imię: <input name="imie"><br />
+				Nazwisko: <input name="nazwisko"><br />
+				<input type="radio" name="Płeć" value="Kobieta" />Kobieta
+				<input type="radio" name="Płeć" value="Mężczyzna" />Mężczyzna<br />
+				Wybierz model: <select name="model">
+					<option>9-3 I</option>
+					<option>9-3 II</option>
+					<option>900</option>
+					<option>9000</option>
+					<option>9-5 I</option>
+					<option>9-5 II</option>
+
+					<option>Inny</option>
+				</select><br />
+				Wybierz silnik: <select name="silnik">
+					<option>Diesel</option>
+					<option>Benzyna</option>
+					<option>Benzyna+LPG</option>
+				</select><br /><br />
+				Informacje dodatkowe: <br /><input type="checkbox"/>bezwypadkowy
+				<input type="checkbox" />sprowadzony
+				<input type="checkbox"/>garażowany<br />
+				<input type="checkbox"/>kupiony w polskim salonie<br />
+
+				<p>Napisz o swoim problemie: </p>
+				<textarea name="Komentarz" cols="39" rows="10" placeholder="Proszę, wpisz tutaj jakiś komentarz..."></textarea><br />
+				E-mail: <input name="email" type="email" placeholder="example@domena.pl"><br />
+				<input type="submit" value="Wyślij formularz" />
+				<input type="reset" value="Wyczyść dane" />
+			</form>
+			<h3>Lub bezpośrednio na nasz adres E-mail: <a href="mailto:adrian.konkel1@gmail.com">adrian.konkel1@gmail.com</a></h3>
+
+		</div>
+		
+
+		<div id="footer">
+
+
+			Copyright © 2019 by Adrian Konkel. All rights reserved.
+		</div>
+	</div>
+</body>
+</html>
